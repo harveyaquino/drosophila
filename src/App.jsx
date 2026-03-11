@@ -356,9 +356,10 @@ export default function FlyMind() {
 
   return (
     <div style={{
-      height: "100dvh", background: "#030712",
+      height: "100vh", maxHeight: "100vh", background: "#030712",
       fontFamily: "'Georgia', serif", color: "#e2e8f0",
       display: "flex", flexDirection: "column", overflow: "hidden",
+      position: "fixed", top: 0, left: 0, right: 0, bottom: 0,
     }}>
       {/* Header */}
       <div style={{
